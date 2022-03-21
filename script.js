@@ -1,27 +1,5 @@
 'use strict';
 
-
-// 自己寫的
-
-/*
-const rollDiceBtn = document.querySelector('.btn--roll');
-const holdBtn = document.querySelector('.btn--hold');
-let dice = document.getElementsByClassName('dice').src;
-
-let score0 = Number(document.querySelector('#score--0').textContent);
-const rollDice = function () {
-	document.querySelector('.dice').classList.remove('hidden');
-	document.querySelector('#current--0').textContent = Math.trunc(Math.random()*6)+1;
-	const currentScore = Number(document.querySelector('#current--0').textContent)
-	score0 = currentScore > 1 ? score0 + currentScore : 0 ;
-	document.querySelector('#score--0').textContent = score0;
-}
-
-rollDiceBtn.addEventListener('click', rollDice)
-*/
-
-// 課程教的
-
 const player0El = document.querySelector('.player--0');
 const player1El = document.querySelector('.player--1');
 const score0El = document.getElementById('score--0');
